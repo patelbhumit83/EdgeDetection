@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "/Users/bhumitpatel/Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk"
+  ],
+  "cleanCommands": [],
+  "buildTargetsCommand": "/Users/bhumitpatel/Library/Android/sdk/ndk/21.0.6113669/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/bhumitpatel/Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-23 NDK_OUT\u003d/Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

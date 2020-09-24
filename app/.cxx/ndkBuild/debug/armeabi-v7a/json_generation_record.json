@@ -1,0 +1,20 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: armeabi-v7a",
+    "file": "/Users/bhumitpatel/Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027/Users/bhumitpatel/AndroidStudioProjects/Edge/app/.cxx/ndkBuild/debug/armeabi-v7a/android_gradle_build.json\u0027 was up-to-date",
+    "file": "/Users/bhumitpatel/Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk",
+    "tag": "debug|armeabi-v7a"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "/Users/bhumitpatel/Downloads/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk",
+    "tag": "debug|armeabi-v7a"
+  }
+]

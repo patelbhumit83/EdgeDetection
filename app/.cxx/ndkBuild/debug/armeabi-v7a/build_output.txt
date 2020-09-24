@@ -1,0 +1,11 @@
+Android NDK: OpenCV: You should ignore warning about 'non-system libraries in linker flags' and 'opencv_java' library.    
+Android NDK:         'OPENCV_INSTALL_MODULES:=on' can be used to build APK with included OpenCV binaries    
+rm -f /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/*
+rm -f /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+rm -f /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+mkdir -p /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a
+echo [armeabi-v7a] "Gdbserver      ": "[arm-linux-androideabi] /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver"
+install -p /Users/bhumitpatel/Library/Android/sdk/ndk/21.0.6113669/prebuilt/android-arm/gdbserver/gdbserver /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdbserver
+echo [armeabi-v7a] "Gdbsetup       ": "/Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup"
+echo "set solib-search-path /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a" > /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
+echo "directory /Users/bhumitpatel/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot" >> /Users/bhumitpatel/AndroidStudioProjects/Edge/app/build/intermediates/ndkBuild/debug/lib/armeabi-v7a/gdb.setup
